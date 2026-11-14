@@ -1,3 +1,5 @@
+Submission write-up: see SUBMISSION.md
+
 # ShopAssist — support copilot cost lab
 
 **ShopAssist** is a Tier-1 support agent for an e-commerce company. For each ticket it:
