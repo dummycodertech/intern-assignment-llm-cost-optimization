@@ -1,0 +1,13 @@
+﻿T-1001  action=REFUND  kb_article=returns-within-30-days
+   handle_ticket input=   525  output=  488  cached=   0  points=  8895
+   TOTAL points=8895
+T-1002  action=SEND_ARTICLE  kb_article=digital-license-no-refund
+   handle_ticket input=   517  output=  495  cached=   0  points=  8976
+   TOTAL points=8976
+T-1003  action=ESCALATE_TIER2  kb_article=custom-items-no-replace
+   handle_ticket input=   508  output=  483  cached=   0  points=  8769
+   TOTAL points=8769
+T-1004  action=REPLACE  kb_article=damage-replacement-7-days
+   handle_ticket input=   511  output=  495  cached=   0  points=  8958
+   TOTAL points=8958
+SUM over 4 ticket(s): 35598
