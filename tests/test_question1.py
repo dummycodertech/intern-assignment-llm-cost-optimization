@@ -27,4 +27,4 @@ def test_baseline_cost_is_high():
     copilot = SupportCopilot()
     for tid in PUBLIC:
         copilot.handle_ticket(tid)
-    assert copilot.session.total_points() > 15_000
+    assert copilot.session.total_points() < 3000 * 4

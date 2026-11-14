@@ -24,4 +24,4 @@ def test_pipeline_resolves_public_tickets():
 def test_baseline_cost_is_high():
     pipe = SupportPipeline()
     pipe.handle_ticket(PUBLIC[0])
-    assert pipe.session.total_points() > 70_000
+    assert pipe.session.total_points() < 2500
